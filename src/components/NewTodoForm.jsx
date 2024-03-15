@@ -17,6 +17,7 @@ export function NewTodoForm({ onSubmit }) {
     setError("");
   }
 
+  
   return (
     <form onSubmit={handleSubmit} className="new-item-form">
       <div className="form-row">
