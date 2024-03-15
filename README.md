@@ -1,16 +1,16 @@
 React Todo Demo App
 This project is a demonstration of various React concepts for web development. It showcases the following concepts:
 
-Props
-State management
-Hooks
-Event Handling
-Local Storage
-Conditional Rendering
-Map Key
-Form Handling
-Component Composition
-CSS styling
+Props,
+State management,
+Hooks,
+Event Handling,
+Local Storage,
+Conditional Rendering,
+Map Keys,
+Form Handling,
+Component Composition,
+CSS styling,
 
 Getting Started
 
