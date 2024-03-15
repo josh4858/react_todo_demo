@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { NewTodoForm } from "../components/NewTodoForm"; // Adjust the path accordingly
 
+
 test('submit form with non-empty title calls onSubmit function', () => {
   // Mock the onSubmit function
   const mockSubmit = jest.fn();
