@@ -11,8 +11,9 @@ Map Key
 Form Handling
 Component Composition
 CSS styling
-React Router (not yet implemented)
+
 Getting Started
+
 To run this React project locally, follow these steps:
 
 1.) Clone this repository to your local machine:
