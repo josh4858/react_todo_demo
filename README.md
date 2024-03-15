@@ -1,7 +1,20 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# React Todo Demo App
+This project will demonstrate a range of React concepts for Web development:
+==================================================================================================================
+Props
+State management - uses state to track list of tasks
+Hooks
+Event Handling - User responses to user actions, it involes handling events.
+Lifecycle 
+Local Storage - Interacting to the web storage API
+Conditional Rendering, to show and hide message when the list is empty.
+Map Key - Used for identifing list items in a map e.g. id to target tasks specifically to delete them if necessary.
+Form Handling - 
+Component Composition
+CSS model - showing how to apply styles in a react applicaition.
+React Router - Does not apply yet as its just one page ( SPA not used just yet )
+Testing (Unit and Integration Test)
+====================================================================================================================
 ## Available Scripts
 
 In the project directory, you can run:
