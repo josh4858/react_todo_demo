@@ -6,9 +6,7 @@ import { TodoList } from "./components/TodoList"
 
 export default function App() {
 
-
   const [todos, setTodos] = useState(() => {
-
     // This gets the todos from your browser local storage however, we might want to get tasks from api
     const localValue = localStorage.getItem("ITEMS")
     if (localValue == null) return []
@@ -19,6 +17,7 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem("ITEMS", JSON.stringify(todos))
   }, [todos])
+
 
   function addTodo(title) {
     setTodos(currentTodos => {
@@ -42,6 +41,7 @@ export default function App() {
   }
 
   function deleteTodo(id) {
+    // This will just show the items which are not equal to the id of an item
     setTodos(currentTodos => {
       return currentTodos.filter(todo => todo.id !== id)
     })

@@ -1,6 +1,6 @@
+import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import { NewTodoForm } from "./components/NewTodoForm"
-import "./styles.css";
+import { NewTodoForm } from "../components/NewTodoForm"; // Adjust the path accordingly
 
 test('submit form with non-empty title calls onSubmit function', () => {
   // Mock the onSubmit function
@@ -20,4 +20,3 @@ test('submit form with non-empty title calls onSubmit function', () => {
   // Assert that the onSubmit function was called with the correct title
   expect(mockSubmit).toHaveBeenCalledWith('Test Todo');
 });
-
